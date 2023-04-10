@@ -7,9 +7,10 @@ class Sesion:
         self.fechaClase = fechaClase
         self.horaInicio = horaInicio
         self.horaFin = horaFin
-        self.camaraEnUso = None
+        self.camaraEnUso = None     # Revisar
         self.listaCamaras = listaCamaras
         
+    # Hay que revisar el objeto
     def iniciar_transmision(self):
         if self.camaraEnUso:
             self.camaraEnUso()
